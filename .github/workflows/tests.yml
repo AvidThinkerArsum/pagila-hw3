@@ -22,6 +22,11 @@ jobs:
         # this is an idempotent command useful for debugging
         docker ps -a
 
+        #cd pagila/
+        #git checkout master
+        #git log -n1
+        #cd
+
         # after the database starts successfully,
         # it needs time to load the pagila data;
         # this should happen in <1 second,
